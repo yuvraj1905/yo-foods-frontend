@@ -67,7 +67,7 @@ function FoodDetail() {
       {/* 3D Food Model */}
       <div className="w-full h-[35vh] mb-4 flex justify-center rounded-lg ">
         <model-viewer
-          src={foodItem.modelUrl}
+          src={process.env.PUBLIC_URL + foodItem.modelUrl}
           alt={foodItem.name}
           ar
           camera-controls
