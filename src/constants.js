@@ -1,17 +1,5 @@
 export const foodItemsDummy = [
   {
-    id: 2,
-    name: "Pizza",
-    description: "Cheesy pizza with toppings",
-    modelUrl: "/models/pizza.glb",
-    previewImg: "/images/pizza.jpg",
-    price: "450",
-    ingredients: ["Flour", "Cheese", "Tomato Sauce", "Olives", "Pepperoni"],
-    energyInKcal: 550,
-    category: "veg",
-    rating: 2.2,
-  },
-  {
     id: 1,
     name: "Pasta",
     description: "Delicious Italian pasta",
@@ -23,7 +11,6 @@ export const foodItemsDummy = [
     category: "nonveg",
     rating: 3.8,
   },
-
   {
     id: 3,
     name: "Burger",
@@ -36,6 +23,19 @@ export const foodItemsDummy = [
     category: "nonveg",
     rating: 3.0,
   },
+  {
+    id: 6,
+    name: "Coffee",
+    description: "Hot coffee",
+    modelUrl: "/models/coffee.glb",
+    previewImg: "/images/coffee.jpg",
+    price: "120",
+    ingredients: ["Water", "Coffee Beans", "Milk", "Sugar"],
+    energyInKcal: 80,
+    category: "veg",
+    rating: 4.2,
+  },
+
   {
     id: 4,
     name: "Samosa",
@@ -61,15 +61,15 @@ export const foodItemsDummy = [
     rating: 3.2,
   },
   {
-    id: 6,
-    name: "Coffee",
-    description: "Hot coffee",
-    modelUrl: "/models/coffee.glb",
-    previewImg: "/images/coffee.jpg",
-    price: "120",
-    ingredients: ["Water", "Coffee Beans", "Milk", "Sugar"],
-    energyInKcal: 80,
+    id: 2,
+    name: "Pizza",
+    description: "Cheesy pizza with toppings",
+    modelUrl: "/models/pizza.glb",
+    previewImg: "/images/pizza.jpg",
+    price: "450",
+    ingredients: ["Flour", "Cheese", "Tomato Sauce", "Olives", "Pepperoni"],
+    energyInKcal: 550,
     category: "veg",
-    rating: 4.2,
+    rating: 2.2,
   },
 ];
