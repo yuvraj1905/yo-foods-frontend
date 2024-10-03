@@ -3,6 +3,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { useCartContext } from "../contexts/CartContext";
 import toast from "react-hot-toast";
 import { foodItemsDummy } from "../constants";
+import { FaSnowflake } from "react-icons/fa";
 
 function FoodDetail() {
   const { id } = useParams();
@@ -77,7 +78,21 @@ function FoodDetail() {
             height: "100%",
             borderRadius: "8px",
           }}
-        />
+          // ar-placement="wall"
+          // ar-scale="fixed"
+          // field-of-view="10deg"
+        >
+          <button
+            slot="ar-button"
+            className="bg-white absolute bottom-0 right-0 flex justify-center items-center border p-1 px-3 gap-2 rounded-md"
+          >
+            {/* 👋 View on your Table */}
+            <FaSnowflake size={16} color="#296E4E" />
+            <span className="text-md text-[#296E4E] font-semibold ">
+              View in AR
+            </span>
+          </button>
+        </model-viewer>
       </div>
 
       {/* Food Name and Price */}

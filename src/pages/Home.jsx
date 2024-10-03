@@ -97,6 +97,9 @@ function Home() {
               onChange={(e) => handleSort(e.target.value)}
               className="bg-gray-200 p-3 rounded-md text-[#296E4E] font-semibold"
             >
+              <option disabled value="">
+                Sort By
+              </option>
               <option value="priceAsc">Price: Low to High</option>
               <option value="priceDesc">Price: High to Low</option>
               <option value="ratingAsc">Rating: Low to High</option>
