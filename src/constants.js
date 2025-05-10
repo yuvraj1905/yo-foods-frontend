@@ -72,4 +72,16 @@ export const foodItemsDummy = [
     category: "veg",
     rating: 2.2,
   },
+  {
+    id: 7,
+    name: "Bhujiya",
+    description: "Bhujiya",
+    modelUrl: "/models/bhujiya.glb",
+    previewImg: "/images/pizza.jpg",
+    price: "50",
+    ingredients: ["Flour", "Cheese", "Tomato Sauce", "Olives", "Pepperoni"],
+    energyInKcal: 250,
+    category: "veg",
+    rating: 2.7,
+  }
 ];
